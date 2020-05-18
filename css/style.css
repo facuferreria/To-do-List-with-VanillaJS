@@ -1,0 +1,163 @@
+body{
+    background-color: #E1E1E1;
+}
+
+.container{
+    width: 1000px;
+    height: 650px;
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+}
+
+.header{
+    width: 998px;
+    height: 200px;
+    background-image: linear-gradient(150deg,#FF014E,#FD0278,#F700F3 );
+    box-sizing: border-box;
+    padding: 5px 10px;
+    color: cornsilk;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.title{
+    text-align: left;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.ferre{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#date{
+    font-size: 40px;
+    float: left;
+    overflow: hidden;
+
+}
+
+.functionalities{
+    float: right;
+    overflow: hidden;
+    padding: 25px 5px 5px 5px;
+}
+
+#normal{
+    background: none;
+    border: none;
+    color: cornsilk;
+    font-family: 'Roboto Slab', serif;
+    padding: 1px 30px;
+}
+
+#done{
+    background: none;
+    border: none;
+    color: cornsilk;
+    font-family: 'Roboto Slab', serif;
+    padding: 1px 30px;
+}
+
+#not-done{
+    background: none;
+    border: none;
+    color: cornsilk;
+    font-family: 'Roboto Slab', serif;
+    padding: 1px 30px;
+}
+
+.content{
+    width: 998px;
+    height: 350px;
+    border-radius: 2px;
+    overflow-y: auto;
+    background-color: #FFF;
+}
+
+#list{
+    list-style: none;
+    padding-left: 20 ;
+}
+
+.item{
+    width: 900px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ACACAC;
+}
+
+.check{
+    float: left;
+    overflow: hidden;
+}
+.text{
+    width: 680px;
+    word-break: break-all;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    margin: 0;
+   
+}
+
+.buttons{
+    float: right;
+    overflow: hidden;
+}
+
+
+.edit{
+    margin-left: 10px;
+    margin-right: 5px;
+    background: none;
+    color: #2AE500;
+    float: right;
+    border-radius: 10px;
+
+
+}
+
+.delete{
+    margin-left: 5px;
+    margin-right: 10px;
+    background: none;
+    color: #E10000;
+    float: right;
+    border-radius: 10px;
+}
+
+.add-item{
+    width: 998px;
+    height: 50px;
+    border-top: 1px solid #ACACAC;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #FFF;
+}
+
+#input{
+    width: 900px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    border-radius: 10px;
+}
+
+#button{
+    background-image: linear-gradient(150deg,#FF014E,#FD0278,#F700F3 );
+    color: #FFF;
+    border-radius: 10px;
+
+}
+
+
+
