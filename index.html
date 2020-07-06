@@ -7,37 +7,49 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300&display=swap" rel="stylesheet">
-    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>To Do List</title>
 </head>
+
 <body>
+
     <div class="container">
+
         <div class="header">
-            <h1 class="title">To Do List App</h1>
-            <h2 class="ferre">By Fxrree</h2>
-            <!--<div class="clear">
-                <i class="refresh" aria-hidden="true"></i>
-            </div>-->
-            <div id="date">
+           
+            <i class="fas fa-sync-alt" id="refresh-btn"></i>
+         
+            <div class="title-container">
+                <h1 class="title">To Do List App</h1>
             </div>
-            <div class="functionalities">
-                <button id="normal">NORMAL</button>
-                <button id="done">DONE</button>
-                <button id="not-done">NOT-DONE</button>
+            
+            <div class="date" id="date"></div>
+            
+            <div class="categories" id="categories">
+                <button id="normal" class="normal">NORMAL</button>
+                <button id="done" class="done">DONE</button>
+                <button id="not-done" class="not-done">NOT-DONE</button>
             </div>
+
         </div>
+
+        <div class="fail" id="fail">
+            <i class="fas fa-times-circle" style="color: #fff;" id="close-btn"></i>
+
+            <p class="failed-text">Please type a valid to do</p>
+        </div>
+
         <div class="content">
-            <ul id="list">
-            </ul>
+            <ul id="list" class="list"></ul>
         </div>
+
         <div class="add-item">
-            <input type="text" id="input" placeholder="Add Something to Do">
-            <button type="submit" id="button" onclick="addToDo()">CLICK ME</button>
+            <input type="text" class="input" id="input" placeholder="Add something to do">
+            <i class="fas fa-plus-circle fa-lg" id="button" onclick="addTask()"></i>
         </div>
+
     </div>
-    <script src="app.js/app.js"></script>
+    <script defer src="https://kit.fontawesome.com/09faf5376a.js" crossorigin="anonymous"></script>
+    <script defer src="app.js/app.js"></script>
 </body>
 </html>
-
-
-
